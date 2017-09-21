@@ -17,10 +17,6 @@ def data_type():
     print int(num_int)
 
 
-
-
-
-
 def for_loop():
     list2 = [0, 2, 3, 4, 5, 6, 8, 9, 10]
     for i in range(len(list2)):
@@ -33,6 +29,7 @@ def while_loop():
        print 'The count is:', count
        count = count + 1
 
+        
 def nested_while():
     num1 = 2
     while(num1 < 10):
@@ -45,6 +42,7 @@ def nested_while():
             print num1, " is prime"
         num1 = num1 + 1
 
+        
 def if_else():
     num = 85
 
@@ -66,6 +64,7 @@ def if_else():
     else:
         print ("fail")
 
+        
 def string_op():
 
     str1 = "Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language."
@@ -90,6 +89,7 @@ def tuple_op():
     print (tup3)
     print (tup4)
 
+    
 def list_op():
 
     list1 = [1, 2, 3, 4, 5]
@@ -100,10 +100,6 @@ def list_op():
     list2 = list2.append(list1)
     print list2
     
-    
-print("program succesful")
-
-
 
 data_type()
 for_loop()
@@ -114,4 +110,5 @@ string_op()
 tuple_op()
 list_op()
 
-
+    
+print("program succesful")
